@@ -1,0 +1,113 @@
+html,
+body {
+    font-size: 16px;
+    font-family: 'Segoe UI','微軟正黑體', monospace;
+    color: #000;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    width: 60%; /*60%*/
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+.verification {
+    margin: 2%;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.form-control {
+    display: block;
+    width: 95%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.verification-btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+button {    
+    cursor: pointer;
+}
+
+.btn-box {
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-btn {
+    margin: 0 15px 10px;
+    width: 120px;
+    height: 120px;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 60px;
+}
+
+.login-btn:active,
+.login-btn:focus {
+    outline: 0;
+}
+
+#shopeeBtn {
+    background-color: #fe5723;
+}
+
+#rutenBtn {
+    background-color: #f29101;
+}
+
+#famistoreBtn {
+    background-color: #009d43;
+}
+
+#ezshipBtn {
+    background-color: #0800ff;
+}
